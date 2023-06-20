@@ -40,7 +40,7 @@ In the following sections, we will discuss the related literature, present the m
 
 • Divide the dataset into training and testing sets. 
 
-• Run selected machine learning and deep neural network algorithms on the dataset like Decision Tree , Random Forest, Multilayer Perceptrons, XGBoost, Autoencoder Neural Networks and Support Vector Machines . 
+• Run selected machine learning and deep neural network algorithms on the dataset like Decision Tree , Random Forest, Multilayer Perceptrons, XGBoost, Autoencoder Neural     Networks and Support Vector Machines on the dataset . 
 
 • Write a code for displaying the evaluation result considering accuracy metrics. 
 
@@ -51,11 +51,11 @@ In the following sections, we will discuss the related literature, present the m
 # Procedure <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
 
 ## 1️⃣ Pre-install all the required libraries
-       1) OpenCV
-       2) Keras
-       3) Numpy
-       4) Pandas
-       5) OS
+        
+       1) Tensoflow
+       2) Numpy
+       3) Pandas
+       4) SciKit-Learn
 ## 2️⃣ Understand the dataset
 Datasets containing phishing and legitimate websites is collected from open-source platform PhishTank.
 [click here!](https://devmesh.intel.com/projects/driver-drowsiness-detection-70c5e4)
