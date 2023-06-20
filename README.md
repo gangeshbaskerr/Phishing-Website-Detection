@@ -1,4 +1,4 @@
-![DRIVER_DROWSINESS_DETECTION_(CNN)-OneAPI]<p align="middle"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/7fc25f97-5f47-4a52-92e2-32b397b9b299.jpg" width="1000" height="250">
+[DRIVER_DROWSINESS_DETECTION_(CNN)-OneAPI]<p align="middle"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/7fc25f97-5f47-4a52-92e2-32b397b9b299.jpg" width="1000" height="250">
     ![made-with-jupyter-notebook](https://user-images.githubusercontent.com/130077430/230479936-93dbcbd0-275b-4af7-9231-cceeb91d8a84.svg)![built-by-team-geeks](https://user-images.githubusercontent.com/130077430/230486285-e9e8fdbc-4579-4d0e-a448-550b423199b2.svg)[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gangeshbaskerr/DriverDrowsinessDetection-OneAPI"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/gangeshbaskerr/DriverDrowsinessDetection-OneAPI?style=social">
 <hr/>
@@ -82,6 +82,8 @@ From this dataset, 5000 random legitimate URLs are collected to train the ML mod
     • In this category, 4 features are extracted. ​
 
 So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '5.urldata.csv' file in the Data Files folder​
+<img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/ae1c82a4-285b-46d7-a109-051f8fc9b8b9" width="999" height="280">
+<img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/8e0171b8-7afc-4b0a-a643-55031fe769a2" width="490" height="280"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/80e41fef-9aa9-47ad-b696-956d9f63f126" width="490" height="280">
 ## 4️⃣ Build and train the model
 
 Before starting the ML model training, the data is split into 80-20, i.e., 8000 training samples & 2000 testing samples. From the dataset, it is clear that this is a supervised machine-learning task.
@@ -102,61 +104,63 @@ The supervised machine learning models (classification) considered to train the 
 
 • Support Vector Machines
 
-<img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="470" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="470" height="500">
+<img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/5e0336b8-06e9-4943-b879-445193bd53e0.png" width="470" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/9b8b83b6-f122-482f-96ce-9c3d8eb1a696.png" width="470" height="500">
 ## 5️⃣ Save the model
        save the model and calculate the training and testing accuracy ,
     
 <hr/>
 
-# Accuracy and Loss      <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
-We did 80 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 97% for validation accuracy.
-<img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="470" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="470" height="300">
+# Tesing and Training accuracy     <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
+We did 50 epochs, to get a good accuracy from the XGBoost model i.e. 86.7% for training accuracy and 85.8% for testing accuracy.
+<p align="middle"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/e4a26e24-a536-4d1c-a9a1-0ec9d8e4e67c.png" width="470" height="300"> 
 
 <hr/>
 
-# Output <img src="https://cdn4.iconfinder.com/data/icons/business-startup-36/64/552-512.png" width="90" height="80">
-## Eyes opened 👀
-<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230589722-bd38ad94-85a8-4ad6-9bad-675286b2d67b.gif" width="250" height="250">
+# Result <img src="https://cdn4.iconfinder.com/data/icons/business-startup-36/64/552-512.png" width="90" height="80">
 
-## Eyes closed
-<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230590473-ac7a6d4b-ed9e-4440-9a98-f65cb506482a.gif" width="250" height="250">
+From the obtained results of the above models, XGBoost Classifier has highest model performance of 86.7%. So the model is saved to the file 'XGBoostClassifier.pickle.dat'
 
 <hr/>
 
 # Learnings <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
 
-1) **Building a CNN model using Intel oneDNN :**
-    oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
+1) **Building various machine learning models  :**
+
+     _How to build, train and fine-tune Decision Tree, Random Forest, Multilayer Perceptrons, XGBoost, Autoencoder Neural Networks and Support Vector Machines ._
 
 2) **Machine Learning :**
-    _How to use machine learning for identifiying the facial features from a drivers face to detect drowsiness._
 
-3) **Convolutional Neural Network(CNN) :**
-    _How to build, train and fine-tune convolutional neural networks for image and video classification._
+    _How to use machine learning for identifiying the phishing site._
 
-4) **Preprocessinig the datasets :**
-    _How to preprocess the data dowloaded from kaggle so that the machine learning could happen in a much better and efficient way._
+4) **URL'S and http:**
 
-5) **Different aspects of drowsiness during driving  :**
+    _I have studied how the URL'S and http of a phishing website are identified ._
+
+6) **How to extract features from dataset :**
+
+    _How to extract thefeatures from  the dataset so that the machine learning could happen in a much better and efficient way._
+
+8) **Different aspects of drowsiness during driving  :**
+
     _I have studied the different causes and reasons for drowsiness to occur and how to resolve it._
     
-6) **Facial regions and drowsiness:**
-    _I have studied how the facial landmarks are identified using an ocular feature called eye aspect ratio and face landmarks.Eye regions are detected           and extracted as regions of interest using a facial cue detector and The eye aspect ratio values are then calculated, analyzed and saved for each image._
+10) **URL'S and http :**
+
+    _I have studied how the URL'S and http of a phishing website are identified ._
     
-7) **Team work :**
+12) **Team work :**
+
     _Collaborating and communicating effectively in a team to deliver a project._
 
-8) **Understanding the need for a phishing website detection **
+14) **Understanding the need for a phishing website detection :**
 
-_These are just a few examples of the knowledge and skills that i likely gained while building this project. Overall, building a drowsiness detection model  is a challenging and rewarding experience that requires a combination of technical expertise and knowledge on facial cue detection._
+    _These are just a few examples of the knowledge and skills that i likely gained while building this project. Overall, building a phishing site detection model  is a         challenging and rewarding experience that requires a combination of technical expertise and knowledge ._
 
 <hr/>
 
 # Project Deployment <img src="https://user-images.githubusercontent.com/130077430/230725195-2f024fca-9cae-4e91-85dc-4c12e0e1fcb0.png" width="90" height="80">
 
-We have built an app using Flutter. Flutter helps Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase. It is a cross-platform app development framework by Google which goes hand in hand with the model to help ensure the safety of the user and other commuters. 
-
-As soon as the model detects drowsiness, the model will send an API request call to the client app, which notifies the user to take some rest and shows the navigation option to the nearest resting places. If the user isn't drowsy, the app will give 10 seconds buffer time within which the user can confirm that he isn't sleepy by pressing the prompt on the screen. If the user is drowsy he will get a option for getting driving assistance from the nearby driving service providers. If the user has been detected drowsy more than three times within 10 minutes, a notification is sent to the highway patrol and the nearby drivers as a concern for the safety of other drivers and the drowsy driver.
+We have built an app using Flutter. Flutter helps Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase. It is a cross-platform app development framework by Google which goes hand in hand with the model to help ensure the safety of the user. 
 
 
 <img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/d38892c6-cbcf-4120-9e92-e7a6c49f4aa5.png" width="230" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/22fba62a-8af0-4c1c-be62-fa122c82b688.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/828d4e40-ac50-4cdc-a385-318309f93427.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/e7df23e6-d187-4a39-af9e-06f656625248.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/4e694ad9-2268-4fa8-8736-99a1205dbdff.png" width="195" height="500">
@@ -170,15 +174,14 @@ As soon as the model detects drowsiness, the model will send an API request call
 1) **Browser Extension :**
     This project can be taken further by creating a browser extensions by developing a GUI. 
 
-2) **Alcohol gas detection :**
-    The MQ3 alcohol gas sensor is a module used for detecting alcohol, CH4, benzene, gasoline, hexane, CO, and LPG. It has a sensitive material namedSnO2 for     alcohol gas detection, This code can be easily pared with MQ3 sensor to extend its detection in drunken driving.
+2) The machine learning models shown here can be easily served as REST API endpoints which can further be used with add-ons to detect phishing websites in real-time.
 
-3) The machine learning models shown here can be easily served as REST API endpoints which can further be used with add-ons to detect phishing websites in real-time.
+3) As this is a software solution this can be easily intergreted into various platfroms with minimum issues and effort, futhermore as we encounter new links we can forvever improve on the accuracy by getting real time feedback from users.
 
 <hr/>
 
 # Conclusion <img src="https://user-images.githubusercontent.com/130077430/230730394-3dfbc977-435b-4a6f-bfa3-fc193606f0e0.png" width="90" height="80">
-Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentage of accidents .
+Through this project there will be 40-50% decrease in number of phishing attacks occuring. If this project is used efficiently it may also lead to huge decrease in percentage of the oercentage of phishing attacks .
 
 
 <hr/>
