@@ -138,7 +138,7 @@ From the obtained results of the above models, XGBoost Classifier has highest mo
 
 6) **How to extract features from dataset :**
 
-    _How to extract thefeatures from  the dataset so that the machine learning could happen in a much better and efficient way._
+    _How to extract the features from  the dataset so that the machine learning could happen in a much better and efficient way._
 
 8) **Different aspects of drowsiness during driving  :**
 
@@ -181,7 +181,7 @@ We have built an app using Flutter. Flutter helps Build, test, and deploy beauti
 <hr/>
 
 # Conclusion <img src="https://user-images.githubusercontent.com/130077430/230730394-3dfbc977-435b-4a6f-bfa3-fc193606f0e0.png" width="90" height="80">
-Through this project there will be 40-50% decrease in number of phishing attacks occuring. If this project is used efficiently it may also lead to huge decrease in percentage of the oercentage of phishing attacks .
+Through this project there will be 40-50% decrease in number of phishing attacks occuring. If this project is used efficiently it may also lead to huge decrease in percentage of phishing attacks .
 
 
 <hr/>
