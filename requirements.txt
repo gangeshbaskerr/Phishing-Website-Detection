@@ -1,6 +1,5 @@
 streamlit
 numpy
-sklearn
 scikit-learn
 requests
 urllib
