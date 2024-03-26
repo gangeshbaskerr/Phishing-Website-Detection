@@ -1,4 +1,8 @@
 streamlit
 numpy
-pickle
 sklearn
+scikit-learn
+requests
+urllib
+datetime
+re
