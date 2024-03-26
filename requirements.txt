@@ -1,7 +1,5 @@
 streamlit
 numpy
-scikit-learn
 requests
-urllib
 datetime
 re
