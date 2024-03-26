@@ -2,4 +2,3 @@ streamlit
 numpy
 requests
 datetime
-re
